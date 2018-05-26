@@ -1,0 +1,41 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "visit <browserpage> and check <browsertitle>",
+    "uid" : "d882a4134b305fd9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1527347746660,
+      "stop" : 1527347754779,
+      "duration" : 8119
+    },
+    "flaky" : false,
+    "parameters" : [ "http://automationpractice.com/index.php", "My Store" ]
+  }, {
+    "name" : "on Dresses page filter on cotton dresses and verify if <results> are displayed",
+    "uid" : "3981e76aba92e14",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1527347757400,
+      "stop" : 1527347766986,
+      "duration" : 9586
+    },
+    "flaky" : false,
+    "parameters" : [ "Showing 1 - 1 of 1 items" ]
+  }, {
+    "name" : "on search page search on <searchtext> and verify if <results> are displayed",
+    "uid" : "81de4b3b486d266f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1527347754782,
+      "stop" : 1527347757398,
+      "duration" : 2616
+    },
+    "flaky" : true,
+    "parameters" : [ "Showing 1 - 1 of 1 item", "Shirt" ]
+  } ]
+}

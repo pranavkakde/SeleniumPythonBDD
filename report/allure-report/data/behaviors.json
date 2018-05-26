@@ -1,0 +1,49 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "AutomationPractice",
+    "children" : [ {
+      "name" : "visit <browserpage> and check <browsertitle>",
+      "uid" : "d882a4134b305fd9",
+      "parentUid" : "bac5745405ac4b76877671fe6e5ade1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527347746660,
+        "stop" : 1527347754779,
+        "duration" : 8119
+      },
+      "flaky" : false,
+      "parameters" : [ "http://automationpractice.com/index.php", "My Store" ]
+    } ],
+    "uid" : "bac5745405ac4b76877671fe6e5ade1a"
+  }, {
+    "name" : "AutomationPracticeSearchOptions",
+    "children" : [ {
+      "name" : "on search page search on <searchtext> and verify if <results> are displayed",
+      "uid" : "81de4b3b486d266f",
+      "parentUid" : "2a3035840a1d8a1b0644d2a469a89d93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527347754782,
+        "stop" : 1527347757398,
+        "duration" : 2616
+      },
+      "flaky" : true,
+      "parameters" : [ "Showing 1 - 1 of 1 item", "Shirt" ]
+    }, {
+      "name" : "on Dresses page filter on cotton dresses and verify if <results> are displayed",
+      "uid" : "3981e76aba92e14",
+      "parentUid" : "2a3035840a1d8a1b0644d2a469a89d93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1527347757400,
+        "stop" : 1527347766986,
+        "duration" : 9586
+      },
+      "flaky" : false,
+      "parameters" : [ "Showing 1 - 1 of 1 items" ]
+    } ],
+    "uid" : "2a3035840a1d8a1b0644d2a469a89d93"
+  } ]
+}
