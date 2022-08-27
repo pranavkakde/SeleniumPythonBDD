@@ -1,3 +1,5 @@
+[![Docker build](https://github.com/pranavkakde/SeleniumPythonBDD/actions/workflows/docker-image.yml/badge.svg)](https://github.com/pranavkakde/SeleniumPythonBDD/actions/workflows/docker-image.yml)
+
 # SeleniumPythonBDD
 This is a BDD Test Automation framework written in Python and Selenium. It generates html reports using Allure. This framework uses `behave` module for BDD tests.
 
